@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin:0px;
+    color: #000;
+}  
+
+h1, h2, h3{
+    font-family: 'Palatino';
+} 
+
+#main{
+    width: 1000px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+footer{
+    margin-top: 50px;
+    bottom: 0px;
+}
+
+.conteudo{
+    width: 980px;
+    margin-top: 10px;
+}
+
+#recicle{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 21px;
+    margin: auto;
+}
+
+#recicle h2{
+    font-size: 22px;
+    text-align: justify;
+    line-height: 21px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+#titulo{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;   
+}
+
+#tituloh2{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;   
+}
+
+h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+
+#barra{
+    background-color:  #11701D;
+    width: 20px;
+    height: 80px;
+}
+
+#barrah2{
+    background-color:  #11701D;
+    width: 10px;
+    height: 40px;
+}
+
+
+p{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#main ul {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
+    list-style: disc;
+}
+
+#main ul li{
+    margin-top: 5px;
+}
+
+#materiais{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+#materiais img{
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+#lixeiras{
+    margin: 0 auto;
+	display: flex;
+    font-size: 22px;
+}
+
+#lixeiras h2{
+    margin-bottom: 10px;
+}
+
+#lixo{
+    flex: 1;
+    flex-direction: row;
+    text-align: center;
+}
+
+#lixo img{
+    width: 300x;
+    height: 240px;
+}
+
+
+
+#header {
+    width: 1000px;
+	margin: 0px auto; 
+    background-color:  #698a6d;
+}
+
+#menu{
+    float: right;
+    display: flex;
+    width: 45%;
+    margin-top:50px;
+}
+
+#menu ul li {
+    display: inline;
+    font-size: 18px;
+    color: white;
+}
+
+#menu ul li a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-inline: 20px;
+}
+
+#mode{
+    float: right;
+    margin-top: 45px;
+    margin-right: 5%;
+}
+
+
+#logotipo img {
+    float: left;
+    width: 12%;
+    display: block;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+#navrodape{
+    margin: auto 345px auto auto;
+}
+#rodape img{
+    float: left;
+    margin: auto;
+    width: 90px;
+}
+
+
+#rodape{
+    width: 1000px;
+    height: 80px;
+    margin: 10px auto;
+    background-color:  #698a6d;
+    color: #fff;
+    text-align: center;
+    display: flex;
+}
+
+
+
+#rodape ul li{
+    display: inline;
+    margin: 10px;
+    font-size: 18px;
+    color:white;
+}
+
+#rodape ul li a{  
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-inline: 5px;
+}
+
+
+#copright{
+    width: 1000px;
+    margin: 1px auto;
+    background-color: #00520A;
+    color: white;
+    text-align: center;
+}
+
+
+.fa-copyright{
+    scale: 0.7;
+}
+
+#particpante{
+    float: left;
+
+}
+
+#participante ol li{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+

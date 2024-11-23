@@ -1,0 +1,193 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin:0px;
+    color: #000;
+}  
+
+h1, h2, h3{
+    font-family: 'Palatino';
+}
+
+#main{
+    width: 1000px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+footer{
+    margin-top: 50px;
+    bottom: 0px;
+}
+
+.conteudo{
+    width: 980px;
+    margin-top: 10px;
+}
+
+#quemsomos h2{
+    font-size: 22px;
+}
+
+#quemsomos{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+#quemsomos img{
+    width: 200px;
+    height: 230px;
+}
+
+#titulo{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;   
+}
+
+h1{
+    margin-left: 10px;
+}
+
+
+#barra{
+    background-color: #11701D;
+    width: 20px;
+    height: 80px;
+}
+
+h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+p{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+#header {
+    width: 1000px;
+	margin: 0px auto; 
+    background-color:   #698a6d;
+}
+
+#menu{
+    float: right;
+    display: flex;
+    width: 45%;
+    margin-top:50px;
+}
+
+#menu ul li {
+    display: inline;
+    font-size: 18px;
+    color: white;
+}
+
+#menu ul li a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-inline: 20px;
+}
+
+#mode{
+    float: right;
+    margin-top: 45px;
+    margin-right: 5%;
+}
+
+
+#logotipo img {
+    float: left;
+    width: 12%;
+    display: block;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+#MPV{
+    display: flex;
+    margin: 50px auto 40px auto;
+}
+
+#MPV div{
+    margin-inline: auto;
+    width: 270px;
+    height: 300px;
+}
+
+#MPV div h2{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#MPV div p{
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+
+#navrodape{
+    margin: auto 345px auto auto;
+}
+
+#rodape img{
+    float: left;
+    margin: auto;
+    width: 90px;
+}
+
+
+#rodape{
+    width: 1000px;
+    height: 80px;
+    margin: 10px auto;
+    background-color:  #698a6d;
+    color: #fff;
+    text-align: center;
+    display: flex;
+}
+
+
+
+#rodape ul li{
+    display: inline;
+    margin: 10px;
+    font-size: 18px;
+    color:white;
+}
+
+#rodape ul li a{  
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-inline: 5px;
+}
+
+
+#copright{
+    width: 1000px;
+    margin: 1px auto;
+    background-color:  #00520A;
+    color: white;
+    text-align: center;
+}
+
+
+.fa-copyright{
+    scale: 0.7;
+}
+
